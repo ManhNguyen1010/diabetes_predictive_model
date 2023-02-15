@@ -40,6 +40,7 @@ is clear that this dataset is not balanced ( as illustrated by the bar
 chart below)
 
 ![image](https://drive.google.com/uc?export=view&id=1YiNPT7qaYCQNxBHZlnldxu6mZWw5fm97)
+
 In this specific scenario, the use of undersample and oversample is only
 done as a reference due to many reasons:
 
@@ -107,8 +108,7 @@ percentages of:
 Here is the confusion matrix plot to illustrate the accuracy of the
 model:
 
-![](media/image3.png){width="4.223958880139983in"
-height="3.226385608048994in"}
+![image](https://drive.google.com/uc?export=view&id=1-4HUQaHH0AXimeYjHEOWpRIvkLSwpzDw)
 
 In total, the results of the logistic model indicate the following:
 
@@ -146,8 +146,8 @@ to work due to diabetic-related diseases. Other \$237 billion are
 including hospitalization, medical care, treatment and supplies, and
 other costs.
 
-![](media/image2.png){width="6.369792213473316in"
-height="2.8229166666666665in"}
+![](https://drive.google.com/uc?export=view&id=132oGCCt-836M0u81FbqT5mY5QYQrdh3z)
+
 
 *Source: cdc.gov*
 
