@@ -1,3 +1,6 @@
+This data analysis project contains 2 parts, data analysis on the correlation between daily stats and diabetes and real-life business application on how healthcare for employees is important - and the negative effect it has on the organizations.
+
+
 **Part 1: Analysis**
 
 Diabetes Health Indicators Dataset: This dataset is a clean dataset of
@@ -5,7 +8,7 @@ Diabetes Health Indicators Dataset: This dataset is a clean dataset of
 
 Here is the list of variables that I am going to use in this dataset:
 
-  Variable               Description
+  Variable   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Description
   ---------------------- ---------------------------------------------------------------------------------------------------------------------
   Diabetes\_binary >>>>>>>>>       0 = no diabetes, 1 = prediabetes/diabetes<br>
   HighBP >>>>>>>>>                 0 = no high BP 1 = high BP<br>
