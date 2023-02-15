@@ -18,7 +18,7 @@ Here is the list of variables that I am going to use in this dataset:
   PhysActivity           physical activity in past 30 days - not including job 0 = no 1 = yes
   Fruits                 Consume Fruit 1 or more times per day 0 = no 1 = yes
   Veggies                Consume Vegetables 1 or more times per day 0 = no 1 = yes
-  HvyAlcoholConsump      (adult men >=14 drinks per week and adult women&gt;=7 drinks per week) 0 = no 1 = yes
+  HvyAlcoholConsump      (adult men >=14 drinks per week and adult women >=7 drinks per week) 0 = no 1 = yes
   AnyHealthcare          Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes
   NoDocbcCost            Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes
   GenHlth                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor
@@ -39,9 +39,7 @@ After using seaborn to plot the decision variable “Diabetes\_binary”, it
 is clear that this dataset is not balanced ( as illustrated by the bar
 chart below)
 
-![](media/image1.png){width="2.9936887576552933in"
-height="3.0677088801399823in"}
-
+![](http://url/to/img.png)
 In this specific scenario, the use of undersample and oversample is only
 done as a reference due to many reasons:
 
