@@ -8,30 +8,7 @@ Diabetes Health Indicators Dataset: This dataset is a clean dataset of
 
 Here is the list of variables that I am going to use in this dataset:
 
-  Variable   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   Description
-  ---------------------- ---------------------------------------------------------------------------------------------------------------------
-  Diabetes\_binary >>>>>>>>>       0 = no diabetes, 1 = prediabetes/diabetes<br>
-  HighBP >>>>>>>>>                 0 = no high BP 1 = high BP<br>
-  HighChol  >>>>>>>>>               0 = no high cholesterol 1 = high cholesterol<br>
-  CholCheck >>>>>>>>>              0 = no cholesterol check in 5 years 1 = yes cholesterol check in 5 years<br>
-  BMI >>>>>>>>>                    Body Mass Index<br>
-  Smoker >>>>>>>>>                 Have you smoked at least 100 cigarettes in your entire life? \[Note: 5 packs = 100 cigarettes\] 0 = no 1 = yes<br> 
-  Stroke >>>>>>>>>                 You had a stroke. 0 = no 1 = yes<br>
-  HeartDiseaseorAttack >>>>>>>>>   coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes<br>
-  PhysActivity >>>>>>>>>           physical activity in past 30 days - not including job 0 = no 1 = yes<br>
-  Fruits >>>>>>>>>                 Consume Fruit 1 or more times per day 0 = no 1 = yes<br>
-  Veggies >>>>>>>>>                Consume Vegetables 1 or more times per day 0 = no 1 = yes<br>
-  HvyAlcoholConsump >>>>>>>>>      (adult men >=14 drinks per week and adult women >=7 drinks per week) 0 = no 1 = yes<br>
-  AnyHealthcare >>>>>>>>>          Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes<br>
-  NoDocbcCost >>>>>>>>>            Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes<br>
-  GenHlth >>>>>>>>>                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor<br> 
-  MentHlth >>>>>>>>>               days of poor mental health scale 1-30 days<br>
-  PhysHlth >>>>>>>>>               physical illness or injury days in past 30 days scale 1-30<br>
-  DiffWalk >>>>>>>>>              Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes<br>
-  Sex >>>>>>>>>                    0 = female 1 = male<br>
-  Age >>>>>>>>>                    13-level age category (\_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older<br>
-  Education >>>>>>>>>              Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = elementary etc.<br>
-  Income >>>>>>>>>                 Income scale (INCOME2 see codebook) scale 1-8 1 = less than \$10,000 5 = less than \$35,000 8 = \$75,000 or more<br>
+![image](https://drive.google.com/uc?export=view&id=14ZsDEiLOuQfUJ_OOoBuW3j17bJ-0ZWpC)
 
 This model developed tries to classify whether a person has
 “Prediabetics/Diabetes” or not. The response variable is binary (has
@@ -63,29 +40,7 @@ result is produced below:
 
 -   *P &lt; 0.001: the most statistically significant a relationship gets, denoted with \*\*\**
 
-  **Variables**          **P &gt; |z|**   **Odd Ratios**   **Significant?**
-  ---------------------- ---------------- ---------------- ------------------
-  HighBP                 0                2.134            \*\*\*
-  HighChol               0                1.778            \*\*\*
-  CholCheck              0                3.533            \*\*\*
-  BMI                    0                1.062            \*\*\*
-  Smoker                 0.352            0.986            
-  Stroke                 0                1.147            \*\*\*
-  HeartDiseaseorAttack   0                1.244            
-  PhysActivity           0.002            0.951            
-  Fruits                 0.001            0.950            
-  Veggies                0.017            0.958            \*\*
-  HvyAlcoholConsump      0                0.470            
-  AnyHealthcare          0.004            1.113            \*
-  NoDocbcCost            0.622            1.013            
-  GenHlth                0                1.713            \*\*\*
-  MentHlth               0                0.996            \*\*\*
-  PhysHlth               0                0.992            \*\*\*
-  DiffWalk               0                1.120            \*\*\*
-  Sex                    0                1.304            \*\*\*
-  Age                    0                1.129            \*\*\*
-  Education              0                0.969            \*\*\*
-  Income                 0                0.946            \*\*\*
+![image](https://drive.google.com/uc?export=view&id=14ZsDEiLOuQfUJ_OOoBuW3j17bJ-0ZWpC)
 
 The results indicate that as the variables are marked with one to three
 asterisks *(the more asterisk mean the more statistically significant a
@@ -107,7 +62,7 @@ percentages of:
 Here is the confusion matrix plot to illustrate the accuracy of the
 model:
 
-![image](https://drive.google.com/uc?export=view&id=1-4HUQaHH0AXimeYjHEOWpRIvkLSwpzDw)
+![image](https://drive.google.com/uc?export=view&id=1w5gcgel7N3jQm_SJrFf2XnXDzPL1c1kO)
 
 In total, the results of the logistic model indicate the following:
 
