@@ -47,14 +47,11 @@ chart below)
 In this specific scenario, the use of undersample and oversample is only
 done as a reference due to many reasons:
 
--   In a real-life scenario, if the data is used to demonstrate
-    > demographic, undersample or oversample can lead to
-    > misleading results.
+-   In a real-life scenario, if the data is used to demonstrate demographic, undersample or oversample can lead to misleading results.
 
 -   This dataset is neither big enough nor small to need resampling.
 
--   Resampling might increase model accuracy and will be referenced
-    > later on, but only the original dataset is used.
+-   Resampling might increase model accuracy and will be referenced later on, but only the original dataset is used.
 
 The model was split in an 80-20 ratio with the former for training and
 the latter for validation. After running the logistic regression, the
@@ -64,8 +61,7 @@ result is produced below:
 
 -   *P &lt; 0.01: more statistically significant, denoted with \*\**
 
--   *P &lt; 0.001: the most statistically significant a relationship
-    > gets, denoted with \*\*\**
+-   *P &lt; 0.001: the most statistically significant a relationship gets, denoted with \*\*\**
 
   **Variables**          **P &gt; |z|**   **Odd Ratios**   **Significant?**
   ---------------------- ---------------- ---------------- ------------------
