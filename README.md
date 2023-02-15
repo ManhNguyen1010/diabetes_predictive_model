@@ -24,7 +24,7 @@ Here is the list of variables that I am going to use in this dataset:
   HvyAlcoholConsump >>>>>>>>>      (adult men >=14 drinks per week and adult women >=7 drinks per week) 0 = no 1 = yes<br>
   AnyHealthcare >>>>>>>>>          Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes<br>
   NoDocbcCost >>>>>>>>>            Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes<br>
-  GenHlth >>>>>>>>>                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor<br> >>>>>>>>>
+  GenHlth >>>>>>>>>                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor<br> 
   MentHlth >>>>>>>>>               days of poor mental health scale 1-30 days<br>
   PhysHlth >>>>>>>>>               physical illness or injury days in past 30 days scale 1-30<br>
   DiffWalk >>>>>>>>>              Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes<br>
