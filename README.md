@@ -6,29 +6,29 @@ Diabetes Health Indicators Dataset: This dataset is a clean dataset of
 Here is the list of variables that I am going to use in this dataset:
 
   Variable               Description
-  ---------------------- ----------------------------------------------------------------------------------------------------------------------
-  Diabetes\_binary       0 = no diabetes, 1 = prediabetes/diabetes
-  HighBP                 0 = no high BP 1 = high BP
-  HighChol               0 = no high cholesterol 1 = high cholesterol
-  CholCheck              0 = no cholesterol check in 5 years 1 = yes cholesterol check in 5 years
-  BMI                    Body Mass Index
-  Smoker                 Have you smoked at least 100 cigarettes in your entire life? \[Note: 5 packs = 100 cigarettes\] 0 = no 1 = yes
-  Stroke                 You had a stroke. 0 = no 1 = yes
-  HeartDiseaseorAttack   coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes
-  PhysActivity           physical activity in past 30 days - not including job 0 = no 1 = yes
-  Fruits                 Consume Fruit 1 or more times per day 0 = no 1 = yes
-  Veggies                Consume Vegetables 1 or more times per day 0 = no 1 = yes
-  HvyAlcoholConsump      (adult men >=14 drinks per week and adult women >=7 drinks per week) 0 = no 1 = yes
-  AnyHealthcare          Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes
-  NoDocbcCost            Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes
-  GenHlth                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor
-  MentHlth               days of poor mental health scale 1-30 days
-  PhysHlth               physical illness or injury days in past 30 days scale 1-30
-  DiffWalk               Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes
-  Sex                    0 = female 1 = male
-  Age                    13-level age category (\_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older
-  Education              Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = elementary etc.
-  Income                 Income scale (INCOME2 see codebook) scale 1-8 1 = less than \$10,000 5 = less than \$35,000 8 = \$75,000 or more
+  ---------------------- ---------------------------------------------------------------------------------------------------------------------
+  Diabetes\_binary >>>>>>>>>       0 = no diabetes, 1 = prediabetes/diabetes<br>
+  HighBP >>>>>>>>>                 0 = no high BP 1 = high BP<br>
+  HighChol  >>>>>>>>>               0 = no high cholesterol 1 = high cholesterol<br>
+  CholCheck >>>>>>>>>              0 = no cholesterol check in 5 years 1 = yes cholesterol check in 5 years<br>
+  BMI >>>>>>>>>                    Body Mass Index<br>
+  Smoker >>>>>>>>>                 Have you smoked at least 100 cigarettes in your entire life? \[Note: 5 packs = 100 cigarettes\] 0 = no 1 = yes<br> 
+  Stroke >>>>>>>>>                 You had a stroke. 0 = no 1 = yes<br>
+  HeartDiseaseorAttack >>>>>>>>>   coronary heart disease (CHD) or myocardial infarction (MI) 0 = no 1 = yes<br>
+  PhysActivity >>>>>>>>>           physical activity in past 30 days - not including job 0 = no 1 = yes<br>
+  Fruits >>>>>>>>>                 Consume Fruit 1 or more times per day 0 = no 1 = yes<br>
+  Veggies >>>>>>>>>                Consume Vegetables 1 or more times per day 0 = no 1 = yes<br>
+  HvyAlcoholConsump >>>>>>>>>      (adult men >=14 drinks per week and adult women >=7 drinks per week) 0 = no 1 = yes<br>
+  AnyHealthcare >>>>>>>>>          Have any kind of health care coverage, including health insurance, prepaid plans such as HMO, etc. 0 = no 1 = yes<br>
+  NoDocbcCost >>>>>>>>>            Was there a time in the past 12 months when you needed to see a doctor but could not because of cost? 0 = no 1 = yes<br>
+  GenHlth >>>>>>>>>                Would you say that in general, your health is: scale 1-5 1 = excellent 2 = very good 3 = good 4 = fair 5 = poor<br> >>>>>>>>>
+  MentHlth >>>>>>>>>               days of poor mental health scale 1-30 days<br>
+  PhysHlth >>>>>>>>>               physical illness or injury days in past 30 days scale 1-30<br>
+  DiffWalk >>>>>>>>>              Do you have serious difficulty walking or climbing stairs? 0 = no 1 = yes<br>
+  Sex >>>>>>>>>                    0 = female 1 = male<br>
+  Age >>>>>>>>>                    13-level age category (\_AGEG5YR see codebook) 1 = 18-24 9 = 60-64 13 = 80 or older<br>
+  Education >>>>>>>>>              Education level (EDUCA see codebook) scale 1-6 1 = Never attended school or only kindergarten 2 = elementary etc.<br>
+  Income >>>>>>>>>                 Income scale (INCOME2 see codebook) scale 1-8 1 = less than \$10,000 5 = less than \$35,000 8 = \$75,000 or more<br>
 
 This model developed tries to classify whether a person has
 “Prediabetics/Diabetes” or not. The response variable is binary (has
