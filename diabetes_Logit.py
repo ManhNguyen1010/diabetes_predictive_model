@@ -9,20 +9,16 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 import statsmodels.api as sm
-#prpbailti
 from torch.nn import functional as F
 import torch
-
-
 import warnings #to remove the warnings
 warnings.filterwarnings('ignore')
-
 
 #import and view the imported dataset
 food = pd.read_csv(("../Downloads/diabetes.csv"))
 print(food.head())
 
-#Check for null entries
+#Check for null entries(if any)
 print("Null values (if any): ", food.isnull().values.any().sum())
 
 #This dataset's variable values are in numerical format, so no conversion is needed
@@ -54,10 +50,8 @@ print("The coefficient b1= ", modelLogistic.coef_)
 #Make prediction 
 y_pred= modelLogistic.predict(x_test)
 
-
 #Creating confusion matrix
 ConfusionMatrix = confusion_matrix(y_test, y_pred)
-
 
 #obtain True Positive, True Negative, False Positive and False Negative 
 #print(classification_report(y_test, y_pred))
@@ -91,15 +85,15 @@ result=logit_model.fit()
 print(result.summary())
 
 
+#Calculating Odds Ratios
+odds_ratios = pd.DataFrame(
+    {
+        "Odd Ratios": result.params,
+        "Lower CI": result.conf_int()[0],
+        "Upper CI": result.conf_int()[1],
+    }
+)
+odds_ratios = np.exp(odds_ratios)
+print(odds_ratios)
 
 
-
-
-
-# 
-#x = food['PhysActivity']
-#y = food['Diabetes_binary'] 
-
-#sns.regplot(x=x, y=y, data=food, logistic=True, ci=None)
-
-#plt.show()
