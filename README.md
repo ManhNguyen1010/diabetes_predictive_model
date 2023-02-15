@@ -39,7 +39,7 @@ After using seaborn to plot the decision variable “Diabetes\_binary”, it
 is clear that this dataset is not balanced ( as illustrated by the bar
 chart below)
 
-![]([http://url/to/img.png](https://drive.google.com/file/d/1YiNPT7qaYCQNxBHZlnldxu6mZWw5fm97/view?usp=sharing))
+![]([http://url/to/img.png](https://drive.google.com/file/d/1YiNPT7qaYCQNxBHZlnldxu6mZWw5fm97/view?usp=sharing)
 In this specific scenario, the use of undersample and oversample is only
 done as a reference due to many reasons:
 
