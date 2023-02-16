@@ -40,7 +40,7 @@ result is produced below:
 
 -   *P &lt; 0.001: the most statistically significant a relationship gets, denoted with \*\*\**
 
-![image](https://drive.google.com/uc?export=view&id=14ZsDEiLOuQfUJ_OOoBuW3j17bJ-0ZWpC)
+![image](https://drive.google.com/uc?export=view&id=1w5gcgel7N3jQm_SJrFf2XnXDzPL1c1kO)
 
 The results indicate that as the variables are marked with one to three
 asterisks *(the more asterisk mean the more statistically significant a
@@ -62,7 +62,7 @@ percentages of:
 Here is the confusion matrix plot to illustrate the accuracy of the
 model:
 
-![image](https://drive.google.com/uc?export=view&id=1w5gcgel7N3jQm_SJrFf2XnXDzPL1c1kO)
+![image](https://drive.google.com/uc?export=view&id=1-4HUQaHH0AXimeYjHEOWpRIvkLSwpzDw)
 
 In total, the results of the logistic model indicate the following:
 
